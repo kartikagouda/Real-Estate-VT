@@ -56,11 +56,11 @@ export default function SearchBar({ onSearch }) {
             className="w-full bg-transparent text-sm font-semibold text-charcoal-900 focus:outline-none cursor-pointer"
           >
             <option value="All">All Locations</option>
-            <option value="Aspen">Aspen Highlands, CO</option>
-            <option value="Santa Barbara">Montecito & Santa Barbara, CA</option>
-            <option value="New York">Tribeca & Manhattan, NY</option>
-            <option value="Lake Tahoe">Lake Tahoe, NV</option>
-            <option value="Scottsdale">Paradise Valley, AZ</option>
+            <option value="Bellary">Bellary City</option>
+            <option value="North Lake District">North Lake District</option>
+            <option value="Outer Ring Road">Outer Ring Road</option>
+            <option value="Sanjeevini">Sanjeevini Campuses</option>
+            <option value="Rural Outskirts">Rural Outskirts</option>
           </select>
         </div>
 
@@ -75,12 +75,11 @@ export default function SearchBar({ onSearch }) {
             onChange={(e) => setPropertyType(e.target.value)}
             className="w-full bg-transparent text-sm font-semibold text-charcoal-900 focus:outline-none cursor-pointer"
           >
-            <option value="All">All Architecture Styles</option>
-            <option value="Modern Estate">Modern Mountain Estate</option>
-            <option value="Coastal Villa">Coastal Ocean Villa</option>
-            <option value="Penthouse Loft">Penthouse Loft</option>
-            <option value="Timber Estate">Timber Lodge Estate</option>
-            <option value="Desert Villa">Desert Compound</option>
+            <option value="All">All Property Types</option>
+            <option value="Modern Estate">Luxury Villas & Estates</option>
+            <option value="Land">Residential Plots</option>
+            <option value="Commercial Land">Commercial Land</option>
+            <option value="Farm Land">Agricultural Farm Land</option>
           </select>
         </div>
 

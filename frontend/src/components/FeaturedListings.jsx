@@ -222,11 +222,11 @@ export default function FeaturedListings({ onSelectProperty, searchFilters }) {
                     <div className="grid grid-cols-3 gap-2 py-3 border-y border-earth-100 text-xs text-charcoal-800 font-medium">
                       <div className="flex items-center gap-1.5">
                         <Bed className="w-4 h-4 text-forest-700" />
-                        <span>{prop.bedrooms} Beds</span>
+                        <span>{prop.bedrooms ? `${prop.bedrooms} Beds` : 'N/A'}</span>
                       </div>
                       <div className="flex items-center gap-1.5">
                         <Bath className="w-4 h-4 text-forest-700" />
-                        <span>{prop.bathrooms} Baths</span>
+                        <span>{prop.bathrooms ? `${prop.bathrooms} Baths` : 'N/A'}</span>
                       </div>
                       <div className="flex items-center gap-1.5">
                         <Square className="w-4 h-4 text-forest-700" />
@@ -337,11 +337,11 @@ export default function FeaturedListings({ onSelectProperty, searchFilters }) {
                     <div className="grid grid-cols-3 gap-2 py-3 border-y border-earth-100 text-xs text-charcoal-800 font-medium">
                       <div className="flex items-center gap-1.5">
                         <Bed className="w-4 h-4 text-forest-700" />
-                        <span>{prop.bedrooms} Beds</span>
+                        <span>{prop.bedrooms ? `${prop.bedrooms} Beds` : 'N/A'}</span>
                       </div>
                       <div className="flex items-center gap-1.5">
                         <Bath className="w-4 h-4 text-forest-700" />
-                        <span>{prop.bathrooms} Baths</span>
+                        <span>{prop.bathrooms ? `${prop.bathrooms} Baths` : 'N/A'}</span>
                       </div>
                       <div className="flex items-center gap-1.5">
                         <Square className="w-4 h-4 text-forest-700" />
