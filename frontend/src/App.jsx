@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import SocialProof from './components/SocialProof';
+import PromoVideo from './components/PromoVideo';
 import ProblemStatement from './components/ProblemStatement';
 import Solution from './components/Solution';
 import HowItWorks from './components/HowItWorks';
@@ -55,7 +56,10 @@ export default function App() {
         {/* 2. Social Proof & Trust Strip */}
         <SocialProof />
 
-        {/* 3. Problem Statement & Cost of Delay */}
+        {/* 3. Promo Video */}
+        <PromoVideo />
+
+        {/* 4. Problem Statement & Cost of Delay */}
         <ProblemStatement onOpenModal={handleOpenModal} />
 
         {/* 4. Solution & Havenwood Advantage */}
