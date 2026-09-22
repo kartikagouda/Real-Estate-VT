@@ -1,0 +1,71 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+  theme: {
+    extend: {
+      colors: {
+        earth: {
+          50: '#FAF8F5',
+          100: '#F3EFEA',
+          200: '#E8E2D9',
+          300: '#D5CCC0',
+          400: '#B8ABA0',
+          500: '#8A7B6E',
+          600: '#6E5F52',
+          700: '#52453B',
+          800: '#382D26',
+          900: '#1E1713',
+        },
+        forest: {
+          50: '#F4F7F4',
+          100: '#E3EBE4',
+          200: '#C5D6C7',
+          300: '#9CB9A0',
+          400: '#6E9674',
+          500: '#4A7251',
+          600: '#38593E',
+          700: '#2C3E2D',
+          800: '#1C2A1E',
+          900: '#111A12',
+        },
+        terracotta: {
+          50: '#FDF7F4',
+          100: '#FAEDE6',
+          200: '#F5D7C7',
+          300: '#EBB69B',
+          400: '#DF906E',
+          500: '#C87D55',
+          600: '#B86B43',
+          700: '#965233',
+          800: '#753F28',
+          900: '#472416',
+        },
+        charcoal: {
+          50: '#F6F6F6',
+          100: '#E7E7E7',
+          200: '#CDCDCD',
+          400: '#8E8E8E',
+          700: '#3F423F',
+          800: '#2D312E',
+          900: '#1A1D1A',
+        },
+      },
+      fontFamily: {
+        sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+        serif: ['"Cormorant Garamond"', 'serif'],
+      },
+      borderRadius: {
+        '4xl': '2rem',
+        '5xl': '2.5rem',
+      },
+      boxShadow: {
+        'earth-sm': '0 2px 10px rgba(28, 42, 30, 0.04)',
+        'earth-md': '0 12px 30px -10px rgba(28, 42, 30, 0.08)',
+        'earth-lg': '0 25px 50px -12px rgba(28, 42, 30, 0.12)',
+        'glow-terracotta': '0 10px 25px -5px rgba(200, 125, 85, 0.3)',
+        'glow-forest': '0 10px 25px -5px rgba(44, 62, 45, 0.3)',
+      },
+    },
+  },
+  plugins: [],
+};
